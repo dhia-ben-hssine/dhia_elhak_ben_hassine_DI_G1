@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+*{
+    font-family: "lato";
+}
+
+#reg_section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+P{
+font-size: 25px;
+    color: white;
+}
+.p_log{ 
+    color: #ffffff;
+    FONT-SIZE: 18PX;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0px auto;
+}
+.left {
+    width: 50%;
+    display: flex;
+    background-color: #a06df2;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    background-color: #374551;
+}
+
+.left img {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.right form{
+    margin: auto auto auto 15%;
+    width: 70%;
+}
+.inputs {
+     background-color: #f7f7f7;
+     margin:10px auto;
+     width: 70%;
+     border: none;
+     padding: 15px 20px;
+     border-radius: 10px;
+     font-size: 15px;
+     font-weight: 300;
+     line-height: 1.5;
+     color: #8d8d8d;
+}
+.right .inputs:hover {
+    background-color:#ffffff;
+    border : 1px solid #29a4ff;
+}
+#btn_register{
+    background-color: #ffffff;
+    border:  none;
+    border-radius: 10px;
+    margin:15px auto;
+    color: #29a4ff;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#btn_register:hover{
+    background-color: white;
+    border: 2px solid #29a4ff;
+    color: #29a4ff;
+}
+.forget_pass{
+    color: #ffffff;
+    padding-left: 30px;
+}
+ hr{
+    width:11%;
+    margin-left:  0%;
+    margin-top: -3%;
+    color: #ffffff;
+    background-color: #ffffff;
+}
